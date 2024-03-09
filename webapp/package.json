@@ -139,6 +139,7 @@
 		"isomorphic-fetch": "^3.0.0",
 		"jest": "^27.5.1",
 		"jest-mock": "^27.5.1",
+		"pretendard": "^1.3.9",
 		"prettier": "^2.6.1",
 		"redux-mock-store": "^1.5.4",
 		"sass": "^1.49.9",

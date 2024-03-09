@@ -1,6 +1,6 @@
 .Button {
     --danger-button-bg-rgb: 247, 67, 67;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     display: flex;
     flex: 0 0 auto;
     align-items: center;
@@ -51,14 +51,31 @@
         }
 
         &.danger {
-            background: linear-gradient(rgb(var(--danger-button-bg-rgb)), rgb(var(--danger-button-bg-rgb)));
+            background: linear-gradient(
+                rgb(var(--danger-button-bg-rgb)),
+                rgb(var(--danger-button-bg-rgb))
+            );
 
             &:hover {
-                background: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), linear-gradient(rgb(var(--danger-button-bg-rgb)), rgb(var(--danger-button-bg-rgb)));
+                background: linear-gradient(
+                        rgba(0, 0, 0, 0.08),
+                        rgba(0, 0, 0, 0.08)
+                    ),
+                    linear-gradient(
+                        rgb(var(--danger-button-bg-rgb)),
+                        rgb(var(--danger-button-bg-rgb))
+                    );
             }
 
             &:active {
-                background: linear-gradient(rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), linear-gradient(rgb(var(--danger-button-bg-rgb)), rgb(var(--danger-button-bg-rgb)));
+                background: linear-gradient(
+                        rgba(0, 0, 0, 0.16),
+                        rgba(0, 0, 0, 0.16)
+                    ),
+                    linear-gradient(
+                        rgb(var(--danger-button-bg-rgb)),
+                        rgb(var(--danger-button-bg-rgb))
+                    );
             }
         }
     }

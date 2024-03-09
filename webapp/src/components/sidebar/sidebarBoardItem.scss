@@ -39,7 +39,7 @@
 
         &:not(.subitem) {
             &::before {
-                content: '';
+                content: "";
                 background: rgb(var(--sidebar-text-active-border-rgb));
                 width: 2px;
                 height: 100%;

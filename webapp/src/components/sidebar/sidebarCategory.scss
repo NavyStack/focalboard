@@ -44,7 +44,7 @@
 
             &:not(.subitem) {
                 &::before {
-                    content: '';
+                    content: "";
                     background: rgb(var(--sidebar-text-active-border-rgb));
                     width: 2px;
                     height: 100%;
@@ -190,7 +190,6 @@
     }
 
     .badge.newCategoryBadge {
-
         background-color: rgba(var(--sidebar-text-rgb));
         color: rgb(var(--sidebar-bg-rgb));
         display: flex;
@@ -227,7 +226,7 @@
             height: 18px;
         }
     }
-    
+
     &.draggingOver {
         border: 1px solid rgba(var(--sidebar-text-rgb), 1);
         border-radius: 4px;

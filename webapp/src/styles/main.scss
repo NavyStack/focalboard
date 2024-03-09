@@ -1,6 +1,6 @@
-@import 'typography';
-@import 'modifiers';
-@import 'z-index';
+@import "typography";
+@import "modifiers";
+@import "z-index";
 
 html {
     height: 100%;
@@ -29,7 +29,7 @@ html {
 
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     /* -webkit-font-smoothing: auto; */
     font-size: 14px;
     line-height: 24px;
@@ -118,8 +118,8 @@ html {
     /* Icons */
 
     .octo-icon {
-        font-family: 'Apple Color Emoji', 'Segoe UI Emoji', NotoColorEmoji,
-            'Noto Color Emoji', 'Segoe UI Symbol', 'Android Emoji', EmojiSymbols;
+        font-family: "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji,
+            "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
         line-height: 1.2;
         align-self: baseline;
         overflow: visible;
@@ -174,11 +174,11 @@ html {
         color: rgba(var(--center-channel-color-rgb), 0.4);
     }
 
-    [contentEditable='true'] {
+    [contentEditable="true"] {
         user-select: text;
     }
 
-    [contentEditable='true']:empty::before {
+    [contentEditable="true"]:empty::before {
         content: attr(placeholder);
         display: block;
         color: rgba(var(--center-channel-color-rgb), 0.4);

@@ -1,4 +1,4 @@
-@import '../styles/z-index';
+@import "../styles/z-index";
 
 .CenterPanel {
     flex: 1 1 auto;
@@ -12,7 +12,6 @@
         flex-direction: column;
     }
 }
-
 
 .BoardComponent {
     flex: 1 1 auto;
@@ -66,7 +65,6 @@
             flex-direction: column;
         }
     }
-
 
     > div:nth-child(2) {
         padding: 0 0 0 1px;
